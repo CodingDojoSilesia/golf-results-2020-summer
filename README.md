@@ -43,7 +43,7 @@ Each person is described with <strong>the XYSQ code</strong>, where:
 * **S** - State of the person, we have 3 states:
   * **H** - **H**ealthy person, can be infected;
   * **S** - **S**ick person, can infect healthy person and after 14 iterations changes to **R** state;
-  * **R** - **R**>ecovered person, cannot be infected;
+  * **R** - **R**ecovered person, cannot be infected;
 * Q - Quarantine state, 0 or 1, if `Q is 1<` then the person can't move;
 * Additionaly, the person has a hidden `N` value - it's a grain for random moving (please see step flow). Initial value is
         ```
